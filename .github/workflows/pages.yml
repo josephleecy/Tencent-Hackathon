@@ -1,0 +1,46 @@
+name: Verify and deploy RELAY
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Install pinned pnpm
+        run: npm install --global pnpm@11.25.0
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Test guarded policy engine
+        run: pnpm test
+      - uses: actions/configure-pages@v5
+      - name: Build Next.js static export
+        env:
+          NEXT_PUBLIC_BASE_PATH: /Tencent-Hackathon
+          NEXT_TELEMETRY_DISABLED: 1
+        run: pnpm build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish public demo
+        id: deployment
+        uses: actions/deploy-pages@v4
