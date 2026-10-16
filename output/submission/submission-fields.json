@@ -3,8 +3,8 @@
   "shortBlurb": "Expert know-how, safely reused across every building.",
   "shortBlurbWordCount": 7,
   "track": "The Real Estate Track - Keppel / AI HARVEST",
-  "projectURL": "https://josephleecy.github.io/Tencent-Hackathon/",
-  "demoVideoURL": "https://josephleecy.github.io/Tencent-Hackathon/demo/",
-  "directVideoURL": "https://josephleecy.github.io/Tencent-Hackathon/relay-demo.mp4",
+  "projectURL": "https://relay-lime-alpha.vercel.app/",
+  "demoVideoURL": "https://relay-lime-alpha.vercel.app/demo/",
+  "directVideoURL": "https://relay-lime-alpha.vercel.app/relay-demo.mp4",
   "sourceURL": "https://github.com/josephleecy/Tencent-Hackathon"
 }

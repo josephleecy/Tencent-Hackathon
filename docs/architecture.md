@@ -8,6 +8,6 @@ Candidate mutation changes the policy while keeping evaluation cases fixed. Eigh
 
 The expertise-capture prompt pattern extracts supported conditions, separates inference, asks counterfactual questions and preserves provenance. Runtime specialist checks are deterministic. The system therefore demonstrates governed expertise reuse without claiming live autonomous model coordination or real facilities validation.
 
-Public hosting uses a Next.js static export on GitHub Pages. GitHub Actions installs the pinned dependencies, runs domain tests, builds the export and deploys it. No secret credentials are included in source or static assets. Production adoption would require authenticated server-side governance, real expert verification and a supervised site pilot; reviewer names and browser storage are demonstration features.
+Public hosting uses a Next.js static export on Vercel, connected to the repository's main branch. GitHub Actions also runs domain tests and maintains the optional GitHub Pages deployment. No secret credentials are included in source or static assets. Production adoption would require authenticated server-side governance, real expert verification and a supervised site pilot; reviewer names and browser storage are demonstration features.
 
 The editable solution deck and project description expand the business workflow, provenance and pilot metrics. All demonstration data is synthetic; operational use requires independent expert validation.

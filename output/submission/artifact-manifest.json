@@ -4,27 +4,12 @@
     "shortBlurb": "Expert know-how, safely reused across every building.",
     "shortBlurbWordCount": 7,
     "track": "The Real Estate Track - Keppel / AI HARVEST",
-    "projectURL": "https://josephleecy.github.io/Tencent-Hackathon/",
-    "demoVideoURL": "https://josephleecy.github.io/Tencent-Hackathon/demo/",
-    "directVideoURL": "https://josephleecy.github.io/Tencent-Hackathon/relay-demo.mp4",
+    "projectURL": "https://relay-lime-alpha.vercel.app/",
+    "demoVideoURL": "https://relay-lime-alpha.vercel.app/demo/",
+    "directVideoURL": "https://relay-lime-alpha.vercel.app/relay-demo.mp4",
     "sourceURL": "https://github.com/josephleecy/Tencent-Hackathon"
   },
   "artifacts": [
-    {
-      "file": "project-description.md",
-      "bytes": 8772,
-      "sha256": "699813f6be0df3a88b1d8197b6e7ac8d8fb2ee4ab85b13bd78b0bc6738057ff3"
-    },
-    {
-      "file": "relay-cover-upload.jpg",
-      "bytes": 32473,
-      "sha256": "387a3ef966d3e746438a5ef849be2b6fe761b4c9d27d3ca54ef2881033f9ec2a"
-    },
-    {
-      "file": "relay-cover.jpg",
-      "bytes": 344323,
-      "sha256": "cacd50259dce356a7ebf64565c6202be4b33ce6b09a4c06350b286121fc61085"
-    },
     {
       "file": "RELAY-demo.mp4",
       "bytes": 5478375,
@@ -41,9 +26,24 @@
       "sha256": "2bff3f1f342ccde80ff0b700ee77d9d70304cfc33597f608f257e2a6f3c4420d"
     },
     {
+      "file": "project-description.md",
+      "bytes": 8772,
+      "sha256": "699813f6be0df3a88b1d8197b6e7ac8d8fb2ee4ab85b13bd78b0bc6738057ff3"
+    },
+    {
+      "file": "relay-cover-upload.jpg",
+      "bytes": 32473,
+      "sha256": "387a3ef966d3e746438a5ef849be2b6fe761b4c9d27d3ca54ef2881033f9ec2a"
+    },
+    {
+      "file": "relay-cover.jpg",
+      "bytes": 344323,
+      "sha256": "cacd50259dce356a7ebf64565c6202be4b33ce6b09a4c06350b286121fc61085"
+    },
+    {
       "file": "submission-fields.json",
-      "bytes": 536,
-      "sha256": "669d2ce8022fb0241b66b2f65c15c5c3842e0e912b9f703eeb37595430a1d341"
+      "bytes": 502,
+      "sha256": "eab1fab620978e30b8e01bd49bda0fefc17cd677aef9e718bd231eb27437b8a8"
     }
   ]
 }

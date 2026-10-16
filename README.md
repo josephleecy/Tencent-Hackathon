@@ -6,8 +6,8 @@ Expert know-how, safely reused across every building.
 
 RELAY is a working prototype for the Keppel Real Estate Track / AI HARVEST challenge at the AI CAN DO IT Tencent Cloud AI Singapore Hackathon 2026. It captures expert reasoning in portable Intelligence Pills and checks when that knowledge can be reused across buildings.
 
-- [Open the working project](https://josephleecy.github.io/Tencent-Hackathon/)
-- [Watch the narrated demo](https://josephleecy.github.io/Tencent-Hackathon/demo/)
+- [Open the working project](https://relay-lime-alpha.vercel.app/)
+- [Watch the narrated demo](https://relay-lime-alpha.vercel.app/demo/)
 - [Project description](output/submission/project-description.md)
 - [Solution diagram deck](output/submission/RELAY-solution-diagram.pptx)
 - [Showcase cover](output/submission/relay-cover-upload.jpg)
@@ -30,7 +30,7 @@ pnpm test
 pnpm dev
 ```
 
-`pnpm build` exports the static site to `out/`. GitHub Pages supplies `NEXT_PUBLIC_BASE_PATH=/Tencent-Hackathon`; ordinary local builds leave it empty.
+`pnpm build` exports the static site to `out/`. Vercel deploys the main branch with an empty base path. The optional GitHub Pages deployment supplies `NEXT_PUBLIC_BASE_PATH=/Tencent-Hackathon`.
 
 ## Prototype scope
 

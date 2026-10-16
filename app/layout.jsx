@@ -1,6 +1,6 @@
 import './globals.css';
 const productionHost = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
-const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL || (productionHost ? `https://${productionHost}` : 'https://josephleecy.github.io');
+const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL || (productionHost ? `https://${productionHost}` : 'https://relay-lime-alpha.vercel.app');
 export const metadata = {
   metadataBase: new URL(siteOrigin),
   title: 'RELAY — Expert Know-How, Ready for Every Shift',
